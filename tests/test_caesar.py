@@ -19,6 +19,11 @@ def test_encrypt_shift_20():
     expected = "ujjfy"
     assert actual == expected
 
+def test_encrypt_shift_27():
+    actual = encrypt("apple", 27)
+    expected = "bqqmf"
+    assert actual == expected
+
 
 def test_uppercase():
     actual = encrypt("BANANA", 10)
@@ -46,7 +51,7 @@ def test_round_trip():
     expected = original
     assert actual == expected
 
-@pytest.mark.skip(reason='Pending')
+# @pytest.mark.skip(reason='Pending')
 def test_crack_phrase():
     phrase = "It was the best of times, it was the worst of times."
     encrypted = encrypt(phrase, 10)
@@ -54,7 +59,7 @@ def test_crack_phrase():
     expected = phrase
     assert actual == expected
 
-@pytest.mark.skip(reason='Pending')
+# @pytest.mark.skip(reason='Pending')
 def test_crack_nonsense():
     phrase = "Ix fhw txe fofg of ndhrl, it nad tho hndrk of allkd."
     encrypted = encrypt(phrase, 10)
