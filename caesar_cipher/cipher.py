@@ -1,4 +1,3 @@
-from ast import Num
 import nltk
 from nltk.corpus import words, names
 # below line used to the needed nltk packages  
