@@ -32,9 +32,9 @@ Estimate of time needed to complete: 1hrs
 
 Start time: 8:40
 
-Finish time: ?
+Finish time: 9:40
 
-Actual time needed to complete: ?hr ?min
+Actual time needed to complete: 1hr 
 
 ## Credits 
 Brandon, Eddie, Connor, Kassie, Roger, [Live Geek](https://likegeeks.com/python-caesar-cipher/#Encrypting_numbers_and_punctuation), [Geeks For Geeks](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/) 
